@@ -1,3 +1,3 @@
 module.exports = gulp => {
-  gulp.task("cache", ["icons-cache"])
+    gulp.task('cache', ['icons-cache'])
 }

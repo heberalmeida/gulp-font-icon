@@ -1,5 +1,5 @@
 {
-  "name": "sisnet_new",
+  "name": "gulp_font_icon",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-cached": "^1.1.1",
     "gulp-consolidate": "^0.2.0",

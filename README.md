@@ -1,5 +1,6 @@
 **required**
-Node Gulp
+Node
+Gulp
 
 **Description**
 create css fonts from an svg
@@ -7,22 +8,22 @@ create css fonts from an svg
 **Install**
 Install gulp globally
 
-    `npm i -g gulp`
+`npm i -g gulp`
 
 Install dependencies projects
 
-    `npm i`
+`npm i`
 
 or
 
-    `yarn`
+`yarn`
 
 **operation**
 start project with the command
 
-    `gulp`
+`gulp`
 
-to play svg in src/assets/icons/svg
-folder the created file is in src/assets/fonts
+to play svg in icons/svg
+folder the created file is in dist/
 
 **\*the gulp is observing each change, it needs to be running**

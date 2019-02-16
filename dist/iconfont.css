@@ -3,11 +3,11 @@ gpfont Webfont
 */
 @font-face {
  font-family: 'gpfont';
- src: url('gpfont.eot?1550262124760');
- src: url('gpfont.eot?#iefix-1550262124760') format('embedded-opentype'),
-  url('gpfont.woff2?1550262124760') format('woff2'),
-  url('gpfont.woff?1550262124760') format('woff'),
-  url('gpfont.ttf?1550262124760') format('truetype');
+ src: url('gpfont.eot?1550280185035');
+ src: url('gpfont.eot?#iefix-1550280185035') format('embedded-opentype'),
+  url('gpfont.woff2?1550280185035') format('woff2'),
+  url('gpfont.woff?1550280185035') format('woff'),
+  url('gpfont.ttf?1550280185035') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
@@ -33,26 +33,18 @@ gpfont Webfont
 Glyphs list
 */
 
-.gpicon-group:before {
+.gpicon-locked:before {
  content: '\ea01';
 }
 
-.gpicon-locked:before {
+.gpicon-multiple-users-silhouette:before {
  content: '\ea02';
 }
 
-.gpicon-multiple-users-silhouette:before {
+.gpicon-shield:before {
  content: '\ea03';
 }
 
-.gpicon-shield - Copia:before {
- content: '\ea04';
-}
-
-.gpicon-shield:before {
- content: '\ea05';
-}
-
 .gpicon-users:before {
- content: '\ea06';
+ content: '\ea04';
 }
