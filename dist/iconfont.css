@@ -3,11 +3,11 @@ gpfont Webfont
 */
 @font-face {
  font-family: 'gpfont';
- src: url('gpfont.eot?1550280185035');
- src: url('gpfont.eot?#iefix-1550280185035') format('embedded-opentype'),
-  url('gpfont.woff2?1550280185035') format('woff2'),
-  url('gpfont.woff?1550280185035') format('woff'),
-  url('gpfont.ttf?1550280185035') format('truetype');
+ src: url('gpfont.eot?1550288750216');
+ src: url('gpfont.eot?#iefix-1550288750216') format('embedded-opentype'),
+  url('gpfont.woff2?1550288750216') format('woff2'),
+  url('gpfont.woff?1550288750216') format('woff'),
+  url('gpfont.ttf?1550288750216') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
