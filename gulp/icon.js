@@ -12,6 +12,11 @@ const system = require('node-notifier'),
         json: []
     }
 
+    fs.readdir('icons/svg/build', (e, files) => {
+        if (!e && files.length)
+            files.forEach(file => fs.unlinkSync(`icons/svg/build/${file}`))
+    })
+
 function icontags(path) {
     const tags = path.basename.match(/(\[)(.+)(\])/),
         name = tags ? path.basename.replace(tags[0], '') : path.basename,
